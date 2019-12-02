@@ -6,4 +6,4 @@ RUN sudo apt-get update \
  && sudo rm -rf /var/lib/apt/lists/*
  
  
-RUN  update-alternatives --install /usr/bin/python python /usr/bin/python3 1
+RUN sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 1
